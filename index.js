@@ -15,7 +15,7 @@ function logWhisper(string) {
 }
 
 function sayHiToGrandma(string) {
-  if (string === string.toLowerCase()) {
+  if (string.toLowerCase() === string) {
     return "I can't hear you!";
 } else if (string ==== string.toUpperCase()) {
   return "YES INDEED!"
@@ -23,4 +23,12 @@ function sayHiToGrandma(string) {
   return "I love you, too."
 } else {
   return ();
+}
+
+if (time < 10) {
+    greeting = "Good morning";
+} else if (time < 20) {
+    greeting = "Good day";
+} else {
+    greeting = "Good evening";
 }
